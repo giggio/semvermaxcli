@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 let args = process.argv.slice(2);
 var semver = require('semver');
 const maxVersion = semver.maxSatisfying(args, '*');
