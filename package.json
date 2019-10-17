@@ -1,0 +1,26 @@
+{
+  "name": "semvermaxcli",
+  "version": "0.0.1",
+  "description": "A simple tool to get the highest semver version.",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "node index 1.2.3 2.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giggio/semvermaxcli.git"
+  },
+  "keywords": [
+    "cli",
+    "semver"
+  ],
+  "author": "Giovanni Bassi <giggio@giggio.net>",
+  "license": "MIT",
+  "dependencies": {
+    "semver": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.1"
+  }
+}
